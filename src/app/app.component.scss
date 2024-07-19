@@ -45,6 +45,16 @@ input[type=number] {
     }
 }
 
+.header-image img {
+    max-width: 100%;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+  
+
 /* Center the delay input and label */
 .input-group {
     display: flex;
@@ -96,3 +106,22 @@ label {
     margin-right: 10px;
     color: #fff;
 }
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+
+    p{
+        background: #3b3b3b;
+        width: fit-content;
+        margin: auto;
+        padding: 20px 20px 10px 20px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        margin-bottom: -10px;
+    }
+  }

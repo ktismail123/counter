@@ -1,12 +1,14 @@
+
 <div class="container">
+  <div class="header-image">
+    <img src="assets/brand-logo.png" alt="Logo">
+  </div>
   <div class="count-value">
     <h1>{{ counter }}</h1>
   </div>
 
   <div>
-
     <button (click)="increment()">+</button>
-    
     <button (click)="decrement()">-</button>
     <button (click)="reset()">Reset</button>
     <button (click)="togglePause()">{{ isPaused ? 'Play' : 'Pause' }} </button>
@@ -16,4 +18,7 @@
     <input id="delay" type="number" [(ngModel)]="delay" (change)="setDelay()" />
   </div>
 
+  <footer class="footer">
+    <p>Powered by <span>{{"kt_!$|\/|@!l"}}</span></p>
+  </footer>
 </div>

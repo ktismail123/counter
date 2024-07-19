@@ -13,7 +13,7 @@ export class AppComponent implements OnInit, OnDestroy{
   ttitle = 'counter';
   counter: number = 0;
   isPaused: boolean = true;
-  delay: number = 3; // Default delay in seconds
+  delay: number = 1; // Default delay in seconds
   intervalId: any;
 
   ngOnInit() {
